@@ -130,5 +130,6 @@ ul {
 @media screen and (max-width: 900px){
  .nav ul li {
    display: inline-block;
+   text-align: center;
  }
 }
