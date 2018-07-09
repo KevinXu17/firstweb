@@ -39,10 +39,59 @@ h2 {color: red;
     font-size: 1.7rem;
     border-bottom:  2px solid black;
     transition: background-color 0.9s;
+
   }
 
 .nav ul li:hover {
   background-color: red;
+}
+
+.favourite ul {
+  list-style-type: none;
+
+
+}
+.favourite ul li{
+  color: cadetblue;
+  padding: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 200px;
+  width: 200px;
+ display: inline-block;
+ margin: 10px;
+}
+
+.bb {
+  background-image: url('img/bodanbodan.png');
+
+  background-position: center center;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 10px;
+}
+.df {
+  background-image: url('img/fox.png');
+
+  background-position: center center;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 10px;
+}
+.hg {
+  background-image: url('img/giles.png');
+
+  background-position: center center;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.image-text {
+  text-align: center;
+
 }
 
 .welcometext {
@@ -76,4 +125,10 @@ ul {
 #commentbox {
   width: 50%;
   height: 90px;
+}
+
+@media screen and (max-width: 900px){
+ .nav ul li {
+   display: inline-block;
+ }
 }
